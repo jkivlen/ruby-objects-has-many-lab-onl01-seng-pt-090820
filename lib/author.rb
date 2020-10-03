@@ -9,8 +9,9 @@ class Author
     @@all << self 
   end
   
+  def posts
   
   
-  
+  end
   
 end
