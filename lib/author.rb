@@ -11,7 +11,12 @@ class Author
   
   def posts
   Post.all
+  end
   
+  def add_post(post)
+    post.name = self
+    
+    
   end
   
 end
