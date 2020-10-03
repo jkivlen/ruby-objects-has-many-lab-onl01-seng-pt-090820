@@ -23,7 +23,7 @@ class Author
   end
   
   self.post_count
-  
+  Post.count
   
   end
   
