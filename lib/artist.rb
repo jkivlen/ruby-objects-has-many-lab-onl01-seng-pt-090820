@@ -1,11 +1,12 @@
 class Artist
   
-  attr_accessor :name, :songs
+  attr_accessor :name
+  
+  @@all = []
   
   def initialize(name)
     @name = name
-    @songs = songs
-    @songs = []
+    @@all << self
   end
   
   
