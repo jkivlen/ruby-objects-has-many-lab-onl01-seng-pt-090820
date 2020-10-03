@@ -19,8 +19,7 @@ class Artist
   end
   
   def add_song(song)
-    song = Song.new(name)
-    self.artist = self
+    Song.artist = self
   end
   
 end
